@@ -1,0 +1,26 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    width: 400px;
+}
+
+input, textarea {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+textarea {
+    height: 20vh;
+}
+
+table {
+    margin: 20px;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 8px;
+}

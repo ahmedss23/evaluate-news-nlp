@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                Logo
+            </div>
+            <div>
+                navigation
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <textarea id="text" name="text" value="" placeholder="Paragraph"></textarea>
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section>
+                <strong>Results:</strong>
+                <div id="results">
+                    <table>
+                        <thead>
+                            <th>Level</th>
+                            <th>Text</th>
+                            <th>Score tag</th>
+                            <th>Agreement</th>
+                            <th>Confidence</th>
+                        </thead>
+                        <tbody id='table-body'>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+
+    </body>
+</html>
